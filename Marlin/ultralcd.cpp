@@ -1524,8 +1524,8 @@ void kill_screen(const char* lcd_msg) {
 
       MENU_ITEM(submenu, MSG_MOVE_E, lcd_move_e);
       #if E_MANUAL > 1
-        MENU_ITEM(submenu, MSG_MOVE_E MSG_MOVE_E1, lcd_move_e0);
-        MENU_ITEM(submenu, MSG_MOVE_E MSG_MOVE_E2, lcd_move_e1);
+        //MENU_ITEM(submenu, MSG_MOVE_E MSG_MOVE_E1, lcd_move_e0);
+        //MENU_ITEM(submenu, MSG_MOVE_E MSG_MOVE_E2, lcd_move_e1);
         #if E_MANUAL > 2
           MENU_ITEM(submenu, MSG_MOVE_E MSG_MOVE_E3, lcd_move_e2);
           #if E_MANUAL > 3
