@@ -5530,7 +5530,8 @@ inline void gcode_M109() {
 
   } while (wait_for_heatup && TEMP_CONDITIONS);
 
-  if (wait_for_heatup) LCD_MESSAGEPGM(MSG_HEATING_COMPLETE);
+  //if (wait_for_heatup) LCD_MESSAGEPGM(MSG_HEATING_COMPLETE);
+  if (wait_for_heatup) LCD_MESSAGEPGM(MSG_START_PRINTING);
 
   KEEPALIVE_STATE(IN_HANDLER);
 }

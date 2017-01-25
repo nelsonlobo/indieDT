@@ -441,6 +441,9 @@
 #ifndef MSG_HEATING_COMPLETE
   #define MSG_HEATING_COMPLETE                "Heating done."
 #endif
+#ifndef MSG_START_PRINTING
+#define MSG_START_PRINTING                    "Printing..."
+#endif
 #ifndef MSG_BED_HEATING
   #define MSG_BED_HEATING                     "Bed Heating."
 #endif
